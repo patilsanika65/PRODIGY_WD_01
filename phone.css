@@ -1,0 +1,60 @@
+/* navigation */
+
+.heading h1{
+    font-size: 2rem;
+}
+.header{
+    max-width: 100%;
+    
+}
+
+/* #navbar
+{
+    display: flex;
+    flex-direction: column;
+} */
+.content
+{
+    height: 320px;
+}
+.tv, .show, .watch, .kid{
+    display: flex;
+    flex-direction: column;
+}
+.text1 h1{
+    font-size: 40px;
+
+}
+.text1 p{
+    font-size: 20px;
+}
+.img1 img{
+    height: 300px;
+    width: 300px;
+}
+.contact h1{
+    font-size:30px ;
+}
+.user-input{
+    display: flex;
+    flex-direction: column;
+}
+.email input{
+    padding: 15px;
+    margin: 6px;
+    width: 19rem;
+    height: 2.5rem;
+    margin-top: 2rem;
+}
+.start #btn3{
+    padding: 15px;
+    margin: 6px;
+    width: 9rem;
+    font-size: 1rem;
+}
+.q1{
+    width: 75%;
+}
+.contact p{
+    font-size: 20px;
+}

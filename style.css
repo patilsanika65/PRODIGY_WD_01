@@ -1,0 +1,242 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.header{
+    height: 95vh;
+    width: 100%;
+    background: #000;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/background.jpg);
+    background-size: cover;
+    background-position:unset;
+    background-repeat: no-repeat;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar .logo img{
+    height: 90px;
+    width: 200px;
+    margin-left: 169px;
+}
+
+.opt{
+    display: flex;
+    margin-right: 235px;
+}
+.prop{
+    margin: 10px;
+    padding: 10px;
+}
+.btn{
+    padding: 7px;
+    height: 35px;
+    width: 85px;
+}
+#btn1{
+    background: linear-gradient(rgba(44, 43, 43, 0.4),rgba(48, 48, 48, 0.4));
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+    width: 140px;
+    border: 0.5px solid gray;
+}
+#btn1 i{
+    font-size: 20px;
+    margin-right: 10px;
+}
+#btn2{
+    background-color: rgb(214, 21, 21);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+#btn2:hover{
+    background-color: rgb(191, 10, 10);
+}
+
+.content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    margin-top: 92px;
+    /* flex-wrap: wrap; */
+}
+
+.heading h1{
+    font-size: 3rem;
+    font-weight: 1300;
+}
+#para1{
+    font-size: 25px;
+    margin-top: 20px;
+}
+#para2{
+    font-size: 20px;
+    margin-top: 25px;
+}
+
+.user-input{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 12px;
+   
+}
+.email input{
+    padding: 15px;
+    margin: 6px;
+    border-radius: 7px;
+    background: linear-gradient(rgba(44, 43, 43, 0.4),rgba(48, 48, 48, 0.4));
+    border: 0.1px solid gray;
+    width: 21rem;
+    color: white;
+    height: 3.5rem;
+    
+    /* z-index: -1; */
+}
+
+.email input::placeholder{
+    font-size: 1.2rem;
+    color: rgb(137, 137, 137);
+}
+.start #btn3{
+    padding: 15px;
+    margin: 6px;
+    background-color: rgb(214, 21, 21);
+    color: white;
+    border-radius:7px ;
+    width: 12rem;
+    font-size: 1.5rem;
+}
+.start #btn3:hover{
+    background-color: rgb(191, 10, 10);
+    cursor: pointer;
+}
+
+/* tv section */
+
+hr{
+    height: 10px;
+    background-color: #292929;
+    border: none;
+}
+
+.tv,.show,.watch,.kid{
+    display: flex;
+    background-color: black;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    height: 79vh;
+}
+.text1{
+    color: white;
+    /* border: 2px solid white; */
+    padding: 23px;
+    width: 670px;
+    text-align: center;
+}
+.text1 h1{
+    font-size: 50px;
+    font-weight: 1600;
+}
+.text1 p{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.img1 img{
+    height: 421px;
+    width: 570px;
+    /* border: 2px solid rgb(253, 252, 252); */
+}
+
+/* contact section */
+.contact{
+    text-align: left;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 65px;
+}
+.contact p{
+    color: white;
+    font-size: 25px;
+    margin-top: 54px;
+    /* margin-bottom: 30px; */
+    text-align: center;
+}
+.contact h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 1400;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.q1{
+    /* border: 2px solid white; */
+    color: white;
+    width: 75%;
+    padding: 27px;
+    margin: 6px;
+    font-size: 25px;
+    background-color:#292929 ;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.q1 i{
+    font-size: 35px;
+}
+.q1:hover{
+    background-color:#434343 ;
+    cursor: pointer;
+}
+
+/* footer section */
+
+.footer{
+    background-color:#000;
+    color: white;
+    display: flex;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footer1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    /* justify-content: space-evenly; */
+}
+.footer1 p{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: rgb(157, 156, 156);
+
+}
+.footer1 a{
+    color: rgb(157, 156, 156);
+    margin-top: 15px;
+}
+.footer1 a:hover{
+    cursor: pointer;
+    color: red;
+}
